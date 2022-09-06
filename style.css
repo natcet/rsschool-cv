@@ -162,7 +162,7 @@ li span {
 /* footer */
 
 .footer {
-    background-color:var(--header-color);
+    /* background-color:var(--header-color); */
     padding: 20px;
     margin-top: 10px;
 
@@ -173,7 +173,7 @@ li span {
 }
   
 .footer-text {
-    color: var(--main-header-color);
+    color: var(--header-color);
     font-weight: 600;
     font-family: var(--font);
     font-size: 18px; 
