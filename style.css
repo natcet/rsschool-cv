@@ -16,7 +16,7 @@ html {
 }
 
 .body  {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     margin: 0;
     padding: 0;    
 }
@@ -29,7 +29,9 @@ html {
 /* hover */
 
 .nav-link:hover,
-.github:hover {
+.github:hover,
+.link-projects:hover
+ {
     color:aquamarine;
 }
 
@@ -69,7 +71,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
+    min-height: calc(100vh - 124px);
 }
 
 .section-title {
@@ -144,6 +146,19 @@ li span {
     font-weight: bold;
 }
 
+.no-mark {
+    list-style-type:none;
+    color:black;
+}
+
+.no-padding {
+    padding-left: 0;
+}
+.link-projects {
+    text-decoration: none;
+    color:black;
+}
+
 /* footer */
 
 .footer {
@@ -151,6 +166,10 @@ li span {
     padding: 20px;
     margin-top: 10px;
 
+}
+
+.flex-footer {
+    display: flex;
 }
   
 .footer-text {
